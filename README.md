@@ -1,1 +1,0 @@
-# Test repo for Helm charts
