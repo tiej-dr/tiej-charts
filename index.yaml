@@ -3,7 +3,17 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-11T21:58:36.215462+02:00"
+    created: "2022-04-12T08:29:17.969146+02:00"
+    description: A Helm chart for Kubernetes
+    digest: cb14bccf1427e7cef040ee497120c703545834538d399981add850c1bb76713a
+    name: hello
+    type: application
+    urls:
+    - hello-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-12T08:29:17.968009+02:00"
     description: A Helm chart for Kubernetes
     digest: 3506309348605681023f77d0c1658ed05846c14affe4286df55f738f539ec323
     name: hello
@@ -11,4 +21,14 @@ entries:
     urls:
     - hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-11T21:58:36.211593+02:00"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-12T08:29:17.96956+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3bc078acb289c5905e1dccae9e946ebd2ab2bd7201f218b91ee5877abf71c9c2
+    name: hello
+    type: application
+    urls:
+    - charts/hello-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-12T08:29:17.964168+02:00"
