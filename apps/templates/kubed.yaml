@@ -12,7 +12,11 @@ spec:
   project: default
   source:
     chart: kubed
-    repoURL: https://github.com/tiej-dr/tiej-charts/charts
+    helm:
+      values: |
+        config:
+          clusterName: "abc.efg.xyz"
+    repoURL: https://github.com/tiej-dr/tiej-charts.git
     targetRevision: 0.0.1
   syncPolicy:
     automated:
