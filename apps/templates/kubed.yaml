@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     chart: kubed
-    repoURL: https://github.com/tiej-dr/tiej-charts.git
+    repoURL: https://github.com/tiej-dr/tiej-charts/charts
     targetRevision: 0.0.1
   syncPolicy:
     automated:
