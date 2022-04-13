@@ -1,0 +1,7 @@
+apiVersion: v2
+name: kubed
+version: 0.0.1
+dependencies:
+  - name: kubed
+    version: v0.12.0
+    repository: https://charts.appscode.com/stable

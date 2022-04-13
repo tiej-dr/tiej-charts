@@ -12,12 +12,8 @@ spec:
   project: default
   source:
     chart: kubed
-    helm:
-      values: |
-        config:
-          clusterName: "foo.bar.baz"
-    repoURL: https://charts.appscode.com/stable/
-    targetRevision: v0.12.0
+    repoURL: https://github.com/tiej-dr/tiej-charts.git
+    targetRevision: 0.0.1
   syncPolicy:
     automated:
       prune: true
