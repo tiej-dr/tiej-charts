@@ -12,8 +12,6 @@ spec:
   project: default
   source:
     chart: kubed
-    helm:
-      values: |
     repoURL: https://charts.appscode.com/stable/
     targetRevision: v0.12.0
   syncPolicy:
