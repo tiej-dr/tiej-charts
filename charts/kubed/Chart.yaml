@@ -1,6 +1,6 @@
 apiVersion: v2
 name: kubed
-version: 0.0.1
+version: 0.0.2
 dependencies:
   - name: kubed
     version: v0.12.0

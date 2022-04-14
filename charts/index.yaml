@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-14T09:43:36.601337+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3bc078acb289c5905e1dccae9e946ebd2ab2bd7201f218b91ee5877abf71c9c2
+    name: hello
+    type: application
+    urls:
+    - hello-0.1.0.tgz
+    version: 0.1.0
+  kubed:
+  - apiVersion: v1
+    appVersion: v0.12.0
+    created: "2022-04-14T09:43:36.607497+02:00"
+    description: Kubed by AppsCode - Kubernetes daemon
+    digest: 00411772422b1eb3cfd96a933a2db904df725bf6fe7d4717e40b098ffb439e43
+    home: https://github.com/appscode/kubed
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubed
+    sources:
+    - https://github.com/appscode/kubed
+    urls:
+    - kubed-v0.12.0.tgz
+    version: v0.12.0
+generated: "2022-04-14T09:43:36.591381+02:00"

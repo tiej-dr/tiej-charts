@@ -1,2 +1,3 @@
 config:
   clusterName: "argle.bargle.xyz"
+nameOverride: "tiej-tester"
