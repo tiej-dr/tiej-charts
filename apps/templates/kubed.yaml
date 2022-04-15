@@ -13,9 +13,6 @@ spec:
   source:
     chart: kubed
     helm:
-      parameters:
-        - name: "config.clusterName"
-          value: "wee"
       values: |
         config:
           clusterName: "woot"
@@ -23,5 +20,5 @@ spec:
     targetRevision: v0.12.0
   syncPolicy:
     automated:
-      prune: false
+      prune: true
       selfHeal: true
