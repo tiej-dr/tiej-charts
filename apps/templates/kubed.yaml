@@ -12,6 +12,10 @@ spec:
   project: default
   source:
     chart: kubed
+    helm:
+      values: |
+        config:
+          clusterName: "woot"
     repoURL: https://tiej-dr.github.io/tiej-charts
     targetRevision: v0.12.0
   syncPolicy:
