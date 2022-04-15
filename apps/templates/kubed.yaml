@@ -12,6 +12,10 @@ spec:
   project: default
   source:
     chart: kubed
+  helm:
+    parameters:
+      - name: "config.clusterName"
+        value: "wee"
     values: |
       config:
         clusterName: "woot"
