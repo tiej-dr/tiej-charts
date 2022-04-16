@@ -16,6 +16,8 @@ spec:
       parameters:
         - name: "resources.limits.cpu"
           value: "71m"
+        - name: "resources.limits.blah"
+          value: "72m"
         - name: "enableAnalytics"
           value: "false"
         - name: "config.clusterName"
