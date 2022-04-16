@@ -15,7 +15,7 @@ spec:
     helm:
       parameters:
         - name: "config.clusterName"
-          value: "wee"
+          value: "woot"
     repoURL: https://tiej-dr.github.io/tiej-charts
     targetRevision: v0.12.0
   syncPolicy:
