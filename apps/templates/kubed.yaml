@@ -14,6 +14,10 @@ spec:
     chart: kubed
     helm:
       parameters:
+        - name: "resources.limits.cpu"
+          value: "71m"
+        - name: "enableAnalytics"
+          value: "false"
         - name: "config.clusterName"
           value: "woot"
     repoURL: https://tiej-dr.github.io/tiej-charts
