@@ -14,16 +14,16 @@ spec:
     chart: kubed
     helm:
       parameters:
-        - name: "resources.limits.cpu"
-          value: "71m"
-        - name: "resources.limits.blah"
-          value: "71m"
         - name: "enableAnalytics"
           value: "false"
         - name: "config.clusterName"
           value: "woot"
-      valueFiles:
-        - values-ha-prod.yaml
+      values: |
+        resources:
+          limits:
+            cpu: "82m"
+      # valueFiles:
+      #   - values-ha-prod.yaml
     repoURL: https://tiej-dr.github.io/tiej-charts
     targetRevision: v0.12.0
   syncPolicy:
