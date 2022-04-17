@@ -25,6 +25,8 @@ spec:
     repoURL: https://charts.jetstack.io
     targetRevision: v1.6.1
   syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
     automated:
       prune: false
       selfHeal: false
