@@ -19,7 +19,7 @@ spec:
       values: |
         resources:
           limits:
-            cpu: "77m"
+            cpu: "99m"
       # valueFiles:
       #   - values-ha-prod.yaml
     repoURL: https://charts.jetstack.io
