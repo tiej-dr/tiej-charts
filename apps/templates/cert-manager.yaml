@@ -14,10 +14,8 @@ spec:
     chart: cert-manager
     helm:
       parameters:
-        - name: "enableAnalytics"
-          value: "false"
-        - name: "config.clusterName"
-          value: "woot"
+        - name: "installCRDs"
+          value: "true"
       values: |
         resources:
           limits:
