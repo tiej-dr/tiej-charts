@@ -18,21 +18,15 @@ spec:
           value: "true"
       values: |
         resources:
-          - apiVersion: v1
-            kind: Namespace
-            metadata:
-              labels:
-                app.kubernetes.io/managed-by: argocd
-                app.kubernetes.io/name: core-cert-manager
-                app.kubernetes.io/component: namespace
-              name: core-cert-manager
+          limits:
+            cpu: "77m"
       # valueFiles:
       #   - values-ha-prod.yaml
     repoURL: https://charts.jetstack.io
     targetRevision: v1.6.1
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true
+      - CreateNamespace="true"
     automated:
       prune: false
       selfHeal: false
