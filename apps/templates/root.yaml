@@ -14,6 +14,8 @@ spec:
     repoURL: https://github.com/tiej-dr/tiej-charts.git
     targetRevision: HEAD
   syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
     automated:
       prune: false
       selfHeal: false
