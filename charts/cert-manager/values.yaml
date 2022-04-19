@@ -1,0 +1,20 @@
+issuer:
+  name: "letsencrypt-clouddns"
+  email: "devops@dr.dk"
+
+certificates:
+  - name: abc
+    secretname: "wildcard-tls-project-domain"
+    type: "public"
+    dns: "foo.bar.com"
+  - name: xyz
+    secretname: "tls-cluster-domain"
+    type: "private"
+    dns: "abc.xyz"
+
+tf:
+  env: review
+  project_id: drdk-review
+  private_dns_name: "private.delta.review.gcp.dr.dk."
+  svc_secret_name: clouddns-dns01-solver-svc-acct
+

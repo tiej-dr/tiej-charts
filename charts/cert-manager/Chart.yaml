@@ -1,0 +1,15 @@
+# Chart.yaml
+apiVersion: v2
+name: cert-manager
+version: 1.0.0 # 
+appVersion: 1.0.0 #
+description: OTS cert-manager chart
+
+dependencies:
+  - name: cert-manager
+    version: v1.6.1
+    repository: https://charts.jetstack.io
+    
+ # You can use an "alias" to shorten the name of the subchart
+ # alias: cert-manager
+ 
