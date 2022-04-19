@@ -16,6 +16,14 @@ spec:
       parameters:
         - name: "enableAnalytics"
           value: "false"
+        - name: "operator.resources.limits.cpu"
+          value: "100m"
+        - name: "operator.resources.limits.memory"
+          value: "128Mi"
+        - name: "operator.resources.requests.cpu"
+          value: "50m"
+        - name: "operator.resources.requests.memory"
+          value: "128Mi"
         - name: "config.clusterName"
           value: "woot"
       values: |
@@ -24,9 +32,11 @@ spec:
             cpu: "82m"
       # valueFiles:
       #   - values-ha-prod.yaml
-    repoURL: https://tiej-dr.github.io/tiej-charts
-    targetRevision: v0.12.0
+    repoURL: https://charts.appscode.com/stable
+    targetRevision: v0.13.2
   syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
     automated:
       prune: false
       selfHeal: false
